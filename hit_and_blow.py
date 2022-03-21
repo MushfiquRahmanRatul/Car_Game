@@ -1,9 +1,3 @@
-#show board
-#play game
-#check win
-    #boardAi = board
-#reset
-
 import random
 
 nugget = ["Red", "Blue", "Yellow", "Green", "Pink", "White"]
