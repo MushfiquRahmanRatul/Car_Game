@@ -49,8 +49,8 @@ def player_turn():
                     slot = "-"
             guess_number += 1
 
-        hits()          ##
-        blows()         ##
+        hits()          
+        blows()         
         print(f"\n{board}    <-- Your Guess\n") 
         print(f"{hit} Hit(s)")      
         print(f"{blow} Blow(s)\n")  
@@ -126,7 +126,7 @@ def playgame():
     global hit
     global blow
 
-    generator()         ##
+    generator()         
     
     print("Welcome To Hit & Blow!\n")
 
@@ -134,12 +134,12 @@ def playgame():
 
     while game_still_going:
 
-        showboard()     ##
+        showboard()     
 
-        player_turn()   ##
+        player_turn()   
 
-        win_loss()      ##
+        win_loss()      
 
-        reset()         ##
+        reset()         
 
-playgame()              ##
+playgame()              
